@@ -7,7 +7,7 @@ const messages = [
 	"We were surprised with a trip to the Bay of Pigs to snorkel.",
 	"We taught English to some Cuban kids, and played sports with them.",
 	"We brought bags of food to Cuban families. This was the day that Abhi lost his temper. Sorry!",
-	"We spent the day at Veradero Beach.",
+ "We drove to Varedaro Beach, where we spent the rest of the day.",
 	"We drove to Havana, and toured the city.",
 	"We took a car tour around Havana city.",
 	"We left Cuba. Goodbye!"
