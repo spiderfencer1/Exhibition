@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Consolas");
+
 *{
+ font-family:"Consolas"
 	-webkit-user-select:none;
 	-moz-user-select:none;
 	-ms-user-select:none;
