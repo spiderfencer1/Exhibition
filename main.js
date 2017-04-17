@@ -23,14 +23,14 @@ function remove(callback){
 	}else{callback();}
 }
 
-function display(text){	
-	remove(function(){
-		let i=0;
-		const anim = setInterval(function(){
-			message.innerHTML = message.innerHTML.substring(0,message.innerHTML.length-1) + text.charAt(i++) + "_";
-			if(i == text.length){clearInterval(anim);}
-		},1000/60);
-	});
+function display(text){
+ remove(function(){
+  let i=0;
+  const anim = setInterval(function(){
+   message.innerHTML = message.innerHTML.substring(0,message.innerHTML.length-1) + text.charAt(i++) + "_";
+   if(i == text.length){clearInterval(anim);}
+  },1000/60);
+ });
 }
 
 function render(src){
