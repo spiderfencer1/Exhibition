@@ -14,26 +14,6 @@
 html,body{
  width:100%;
  height:100%;
-<<<<<<< HEAD
-}
-#container{
-	display:table;
-	width:100%;
-	height:100%;
-}
-#container img,#container p{
-	width:25%;
-	height:33.33%;
-}
-#container img{z-index:10;}
-#container p{z-index:5;}
-#container img:hover{
-	-webkit-filter:blur(3px);
-	filter:blur(3px);
-	z-index:1;
-=======
- overflow:hidden;
- vertical-align:middle;
 }
 .container{
  width:25%;
@@ -54,7 +34,7 @@ html,body{
  font-family:"Monospace";
  color:#fff;
 }
-.title{width:50%;height:25%;background:rgba(0,0,0,0.25);position:absolute;left:0;top:0;}
+.title{width:50%;height:25%;background:rgb(255,255,255);position:absolute;left:0;top:0;text-align:center;font-family:"Monospace";font-size:3vw;}
 .day-1{left:50%;top:0;}
 .day-2{left:75%;top:0;}
 .day-3{left:0;top:25%;height:50%;}
@@ -93,6 +73,7 @@ html,body{
  width:100%;
 }
 .day-6:hover .o6{
+	visibility:visible;
  background:rgba(0,112,0,0.5);
  width:100%;
 }
@@ -125,5 +106,4 @@ html,body{
  visibility:visible;
  background:rgba(112,112,112,0.5);
  width:100%;
->>>>>>> d54d2726719297cca54e6503116da83bb19424fa
 }
