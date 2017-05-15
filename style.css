@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Consolas");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 *{
- font-family:"Consolas"
+ font-family:"Roboto"
 	-webkit-user-select:none;
 	-moz-user-select:none;
 	-ms-user-select:none;
@@ -14,6 +14,7 @@
 html,body{
  width:100%;
  height:100%;
+<<<<<<< HEAD
 }
 #container{
 	display:table;
@@ -30,4 +31,99 @@ html,body{
 	-webkit-filter:blur(3px);
 	filter:blur(3px);
 	z-index:1;
+=======
+ overflow:hidden;
+ vertical-align:middle;
+}
+.container{
+ width:25%;
+ height:25%;
+ position:absolute;
+}
+.container img{
+ width:100%;
+ height:100%;
+}
+.overlay{
+ position:absolute;
+ width:0;
+ height:100%;
+ visibility:hidden;
+ transition:.5s ease;
+ left:0;top:0;
+ font-family:"Monospace";
+ color:#fff;
+}
+.title{width:50%;height:25%;background:rgba(0,0,0,0.25);position:absolute;left:0;top:0;}
+.day-1{left:50%;top:0;}
+.day-2{left:75%;top:0;}
+.day-3{left:0;top:25%;height:50%;}
+.day-4{left:25%;top:25%;height:50%;}
+.day-5{left:50%;top:25%;}
+.day-6{left:75%;top:25%;}
+.day-7{left:50%;top:50%;}
+.day-8{left:75%;top:50%;}
+.day-9{left:0;top:75%;}
+.day-10{left:25%;top:75%;}
+.day-11{left:50%;top:75%;}
+.day-12{left:75%;top:75%;}
+.day-1:hover .o1{
+ visibility:visible;
+ background:rgba(112,0,0,0.5);
+ width:100%;
+}
+.day-2:hover .o2{
+ visibility:visible;
+ background:rgba(0,112,0,0.5);
+ width:100%;
+}
+.day-3:hover .o3{
+ visibility:visible;
+ background:rgba(0,0,112,0.5);
+ width:100%;
+}
+.day-4:hover .o4{
+ visibility:visible;
+ background:rgba(112,112,112,0.5);
+ width:100%;
+}
+.day-5:hover .o5{
+ visibility:visible;
+ background:rgba(112,0,0,0.5);
+ width:100%;
+}
+.day-6:hover .o6{
+ background:rgba(0,112,0,0.5);
+ width:100%;
+}
+.day-7:hover .o7{
+ visibility:visible;
+ background:rgba(0,0,112,0.5);
+ width:100%;
+}
+.day-8:hover .o8{
+ visibility:visible;
+ background:rgba(112,112,112,0.5);
+ width:100%;
+}
+.day-9:hover .o9{
+ visibility:visible;
+ background:rgba(112,0,0,0.5);
+ width:100%;
+}
+.day-10:hover .o10{
+ visibility:visible;
+ background:rgba(0,112,0,0.5);
+ width:100%;
+}
+.day-11:hover .o11{
+ visibility:visible;
+ background:rgba(0,0,112,0.5);
+ width:100%;
+}
+.day-12:hover .o12{
+ visibility:visible;
+ background:rgba(112,112,112,0.5);
+ width:100%;
+>>>>>>> d54d2726719297cca54e6503116da83bb19424fa
 }
